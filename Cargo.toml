@@ -1,0 +1,12 @@
+[package]
+name = "chip8"
+version = "0.1.0"
+authors = ["Mael Guillossou <mael.guillossou@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chip8core = { path = "../chip8core" }
+env_logger = "0.8.2"
+minifb = "0.19.1"
